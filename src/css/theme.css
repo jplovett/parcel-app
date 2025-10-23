@@ -1,0 +1,36 @@
+:root {
+    --link-transition: color 160ms ease, transform 160ms ease;
+    --primary: #003057;
+    --blue: #2b6cdf;
+    --lightblue: #b0c4de;
+    --danger: #b22222;
+    --success: #2a9d8f;
+    --warning: #e9c46a;
+    --disabled: #d4d4d4;
+    --mediumgray: #808080;
+    --darkgray: #424242;
+    --dark: #001620;
+    --light: #e1e1e1;
+    --dev: #0B6F0B;
+    --link: steelblue;
+}
+.bk-light {
+    background-color: var(--disabled);
+    color: var(--dark);
+}
+.bk-dark {
+    background-color: var(--primary);
+    color: var(--warning);
+}
+a {
+    color: var(--link);
+    text-decoration: none;
+    transition: var(--link-transition);
+}   
+a:hover {
+    color: var(--blue);
+    transform: scale(1.05);
+}
+a:active {
+    transform: scale(0.95);
+}

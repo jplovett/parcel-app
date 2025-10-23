@@ -1,0 +1,10 @@
+@import './_vars.scss';
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: $primary;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    color: var(--primary);
+    margin: 0;
+    padding: 0;
+}

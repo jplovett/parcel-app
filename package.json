@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "parcel bundler app project",
   "scripts": {
-    "build": "parcel build src/index.html --dist-dir public",
-    "clean": "rimraf public .parcel-cache",
-    "clean:build": "npm run clean && npm run build",
-    "watch": "parcel watch src/index.html --dist-dir public"
+    "dev": "parcel src/index.html --open",
+    "clean": "rimraf dist .parcel-cache"
   },
   "repository": {
     "type": "git",
@@ -20,9 +18,11 @@
   },
   "homepage": "https://github.com/jplovett/parcel-app#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.0",
     "parcel": "^2.16.0"
   },
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "rimraf": "^6.0.1"
   }
 }
