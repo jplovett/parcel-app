@@ -765,7 +765,7 @@ function buildFooter() {
     rawInject(`<p>&copy; ${year} Parcel App. All rights reserved.</p> ` || missingFooter);
 }
 
-},{"./header.js":"7clXR","./footer.js":"eGHlE","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","bootstrap/dist/css/bootstrap.min.css":"i5LP7"}],"7clXR":[function(require,module,exports,__globalThis) {
+},{"bootstrap/dist/css/bootstrap.min.css":"i5LP7","./header.js":"7clXR","./footer.js":"eGHlE","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"i5LP7":[function() {},{}],"7clXR":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 const hdr = document.querySelector('header#hdr');
@@ -816,6 +816,6 @@ exports.default = ()=>{
     ftr.innerHTML = `<span>&copy; ${year} Parcel App. All rights reserved.</span> `;
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"i5LP7":[function() {},{}]},["i4syP","9f5IL"], "9f5IL", "parcelRequireca94", {})
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["i4syP","9f5IL"], "9f5IL", "parcelRequireca94", {})
 
 //# sourceMappingURL=parcel-app.3052eed7.js.map
