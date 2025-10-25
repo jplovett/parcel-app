@@ -1,5 +1,6 @@
-@import './_vars.scss';
+@import './_overrides';
 @import '~bootstrap/scss/bootstrap';
+@import './_custom';
 
 body {
     background-color: $primary;

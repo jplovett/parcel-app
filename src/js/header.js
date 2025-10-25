@@ -1,3 +1,4 @@
+import navItems from '../config/navItems.js'
 const hdr = document.querySelector('header#hdr');
 
 export default () => {
@@ -7,3 +8,4 @@ export default () => {
   </div>
 </nav>`;
 }
+console.log('Navigation items:', navItems);
